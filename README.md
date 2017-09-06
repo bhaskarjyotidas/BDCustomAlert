@@ -8,7 +8,7 @@ BDCustomAlertView is a objective c custom alertview which support toast alert an
 - Toast message
 ## ScreenShots
 
-![](https://raw.githubusercontent.com/BhaskarJyotiDas/BDCustomAlert/master/ScreenShots/1.jpg?raw=true =100x)
-![](https://raw.githubusercontent.com/BhaskarJyotiDas/BDCustomAlert/master/ScreenShots/2.jpg?raw=true =100x)
-![](https://raw.githubusercontent.com/BhaskarJyotiDas/BDCustomAlert/master/ScreenShots/3.jpg?raw=true =100x)
-![](https://raw.githubusercontent.com/BhaskarJyotiDas/BDCustomAlert/master/ScreenShots/4.jpg?raw=true =100x)
+![](https://raw.githubusercontent.com/BhaskarJyotiDas/BDCustomAlert/master/ScreenShots/1.jpg?raw=true)
+![](https://raw.githubusercontent.com/BhaskarJyotiDas/BDCustomAlert/master/ScreenShots/2.jpg?raw=true)
+![](https://raw.githubusercontent.com/BhaskarJyotiDas/BDCustomAlert/master/ScreenShots/3.jpg?raw=true)
+![](https://raw.githubusercontent.com/BhaskarJyotiDas/BDCustomAlert/master/ScreenShots/4.jpg?raw=true)
