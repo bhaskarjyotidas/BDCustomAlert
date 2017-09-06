@@ -1,7 +1,4 @@
 # BDCustomAlert
-# BDCustomAlert
-[![N|Solid](https://ibb.co/gJdnTa)](https://ibb.co/gJdnTa)
-![](https://ibb.co/gJdnTa)
 
 BDCustomAlertView is a objective c custom alertview which support toast alert and custom design alert with header title or header image.
 # Features!
@@ -9,3 +6,5 @@ BDCustomAlertView is a objective c custom alertview which support toast alert an
 - Double button alert
 - Header text / image
 - Toast message
+## ScreenShot
+![](https://github.com/myoungsc/SCCardView/blob/master/SCCardView.gif?raw=true)
