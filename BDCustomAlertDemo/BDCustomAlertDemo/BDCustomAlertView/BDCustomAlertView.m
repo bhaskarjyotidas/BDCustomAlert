@@ -300,6 +300,7 @@ void(^cancelCallBack)();
 {
     self.toastLabel.text = message;
     self.alertView.hidden = YES;
+    self.toastLabel.hidden = NO;
     [self showView:self.toastLabel withAnimation:NO];
     CGRect rectToastLabel = self.toastLabel.frame;
     CGRect rect = [self.toastLabel.text boundingRectWithSize:CGSizeMake(self.toastLabel.frame.size.width, CGFLOAT_MAX)
