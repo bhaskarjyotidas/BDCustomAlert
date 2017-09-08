@@ -206,6 +206,7 @@ void(^cancelCallBack)();
 
 - (void)showAlertWithTitle : (NSString *)title message : (NSString *)message cancelButtonTitle : (NSString *)cancelButtonTitle successButtonTitle : (NSString *)successButtonTitle withSuccessBlock:(void (^)())successBlock cancelBlock:(void (^)())cancelBlock
 {
+    self.alertView.hidden = NO;
     self.toastLabel.hidden = YES;
     successCallBack = successBlock;
     cancelCallBack = cancelBlock;
@@ -231,6 +232,7 @@ void(^cancelCallBack)();
 
 - (void)showAlertWithTitle : (NSString *)title message : (NSString *)message cancelButtonTitle : (NSString *)cancelButtonTitle cancelBlock:(void (^)())cancelBlock
 {
+    self.alertView.hidden = NO;
     self.toastLabel.hidden = YES;
     cancelCallBack = cancelBlock;
     self.headerImageView.hidden = YES;
@@ -248,6 +250,7 @@ void(^cancelCallBack)();
 
 - (void)showAlertWithHeaderImage : (UIImage *)headerImage message : (NSString *)message cancelButtonTitle : (NSString *)cancelButtonTitle successButtonTitle : (NSString *)successButtonTitle withSuccessBlock:(void (^)())successBlock cancelBlock:(void (^)())cancelBlock
 {
+    self.alertView.hidden = NO;
     self.toastLabel.hidden = YES;
     successCallBack = successBlock;
     cancelCallBack = cancelBlock;
@@ -275,6 +278,7 @@ void(^cancelCallBack)();
 
 - (void)showAlertWithHeaderImage : (UIImage *)headerImage message : (NSString *)message cancelButtonTitle : (NSString *)cancelButtonTitle cancelBlock:(void (^)())cancelBlock
 {
+    self.alertView.hidden = NO;
     self.toastLabel.hidden = YES;
     cancelCallBack = cancelBlock;
     self.headerImageView.hidden = NO;
